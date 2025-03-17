@@ -10,7 +10,7 @@ namespace NugetCustomersJJLM.Models
     public class Customer
     {
         [JsonProperty("customerId")]
-        public int IdCustomer { get; set; }
+        public string IdCustomer { get; set; }
         [JsonProperty("contactName")]
         public string Contacto { get; set; }
         [JsonProperty("companyName")]
